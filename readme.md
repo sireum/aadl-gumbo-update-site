@@ -26,4 +26,4 @@ bin/build.cmd
 
 This will update ``$SIREUM_HOME/bin/sireum.jar`` which will be used by the AADL GUMBO plugins when OSATE is relaunched.
 
-To update the OSATE plugins themselves simply rerun the ``hamr phantom`` comand from the [How to Install](#how-to-install) section (only needed when new versions of the plugin are released)
+To update the OSATE plugins themselves simply rerun the ``hamr phantom`` command from the [How to Install](#how-to-install) section (only needed when new versions of the plugin are released)
