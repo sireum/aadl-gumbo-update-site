@@ -16,7 +16,7 @@ $SIREUM_HOME/bin/sireum.bat hamr phantom -u --features org.sireum.aadl.gumbo.fea
 
 ## How to Update
 
-First close OSATE if open.  Then update HAMR Codegen by updating Sireum
+First close OSATE if open, then update HAMR Codegen by updating Sireum
 
 ```
 cd $SIREUM_HOME
@@ -24,6 +24,6 @@ git pull --recurse
 bin/build.cmd
 ```
 
-This will update ``$SIREUM/bin/sireum.jar`` which will be used by the AADL GUMBO plugins when OSATE is relaunched.
+This will update ``$SIREUM_HOME/bin/sireum.jar`` which will be used by the AADL GUMBO plugins when OSATE is relaunched.
 
 To update the OSATE plugins themselves simply rerun the ``hamr phantom`` comand from the [How to Install](#how-to-install) section (only needed when new versions of the plugin are released)
