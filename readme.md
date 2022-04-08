@@ -14,6 +14,14 @@ or the following on Windows
 %SIREUM_HOME%\bin\sireum.bat hamr phantom -u --features org.sireum.aadl.gumbo.feature.feature.group=https://raw.githubusercontent.com/sireum/aadl-gumbo-update-site/master;org.sireum.aadl.osate.gumbo2air.feature.feature.group=https://raw.githubusercontent.com/sireum/aadl-gumbo-update-site/master
 ```
 
+**NOTE**: the ``-u`` phantom option also installs/updates the following Sireum OSATE plugins: 
+* Base - transformers core AADL to [AIR](https://github.com/sireum/air)
+* CLI - provides a CLI for Sireum based OSATE plugins ***(documentation forthcoming)***
+* [AWAS](https://awas.sireum.org/) - information flow analyzer and visualizer for component-based systems
+* [HAMR](https://hamr.sireum.org) - code generation from AADL models
+
+Pass phantom's ``--help`` option for more information (e.g. how to install plugins into an existing OSATE installation)
+
 ## How to Update
 
 First close OSATE if open, then update HAMR Codegen by updating Sireum
