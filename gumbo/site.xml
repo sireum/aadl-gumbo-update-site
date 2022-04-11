@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.sireum.aadl.gumbo.feature_1.0.0.202204071718.jar" id="org.sireum.aadl.gumbo.feature" version="1.0.0.202204071718">
+   <feature url="features/org.sireum.aadl.gumbo.feature_1.0.0.202204112221.jar" id="org.sireum.aadl.gumbo.feature" version="1.0.0.202204112221">
       <category name="org.sireum.aadl.osate.category"/>
    </feature>
    <category-def name="org.sireum.aadl.osate.category" label="Sireum">
