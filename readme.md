@@ -15,7 +15,7 @@ or the following on Windows
 ```
 
 **NOTE**: the ``-u`` phantom option also installs/updates the following Sireum OSATE plugins: 
-* Base - transformers core AADL to [AIR](https://github.com/sireum/air)
+* Base - transforms core AADL to [AIR](https://github.com/sireum/air)
 * CLI - provides a CLI for Sireum based OSATE plugins ***(documentation forthcoming)***
 * [AWAS](https://awas.sireum.org/) - information flow analyzer and visualizer for component-based systems
 * [HAMR](https://hamr.sireum.org) - code generation from AADL models
