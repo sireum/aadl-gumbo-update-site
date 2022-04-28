@@ -22,6 +22,20 @@ or the following on Windows
 
 Pass phantom's ``--help`` option for more information (e.g. how to install plugins into an existing OSATE installation)
 
+## How to Install into FMIDE
+
+First install FMIDE
+
+```
+$SIREUM_HOME/bin/install/fmide.cmd
+```
+
+The script will indicate where it installed FMIDE.  Copy that location and pass it to phantom via its ``-o`` option.  For example
+
+```
+$SIREUM_HOME/bin/sireum hamr phantom -u -o <fmide-loc> --features "org.sireum.aadl.gumbo.feature.feature.group=https://raw.githubusercontent.com/sireum/aadl-gumbo-update-site/master;org.sireum.aadl.osate.gumbo2air.feature.feature.group=https://raw.githubusercontent.com/sireum/aadl-gumbo-update-site/master"
+```
+
 ## How to Update
 
 First close OSATE if open, then update HAMR Codegen by updating Sireum
