@@ -6,7 +6,7 @@
     <property name='p2.timestamp' value='1243822502440'/>
   </properties>
   <children size='2'>
-    <child location='1.2022.06011655.d0c1d8e'/>
-    <child location='1.2022.06081955.eb93186'/>
+    <child location='org.sireum.aadl.gumbo'/>
+    <child location='org.sireum.aadl.osate.gumbo2air'/>
   </children>
 </repository>
