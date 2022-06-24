@@ -5,12 +5,8 @@
   <properties size='1'>
     <property name='p2.timestamp' value='1243822502499'/>
   </properties>
-  <children size='6'>
-    <child location='1.2022.06011655.d0c1d8e'/>
-    <child location='1.2022.06081955.eb93186'/>
-    <child location='1.2022.06151822.8f00475'/>
-    <child location='1.2022.06161903.68c1896'/>
-    <child location='1.2022.06222050.06a7060'/>
-    <child location='1.2022.06242122.c1af472'/>
+  <children size='2'>
+    <child location='org.sireum.aadl.gumbo'/>
+    <child location='org.sireum.aadl.osate.gumbo2air'/>
   </children>
 </repository>
