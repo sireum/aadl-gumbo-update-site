@@ -5,13 +5,13 @@
 Install [Sireum](https://github.com/sireum/kekinian#installing) (or update an existing installation, see below) and then execute the following on Mac/Linux
 
 ```
-$SIREUM_HOME/bin/sireum hamr phantom -u --features "org.sireum.aadl.gumbo.feature.feature.group=https://raw.githubusercontent.com/sireum/aadl-gumbo-update-site/master;org.sireum.aadl.osate.gumbo2air.feature.feature.group=https://raw.githubusercontent.com/sireum/aadl-gumbo-update-site/master"
+$SIREUM_HOME/bin/sireum hamr phantom -u
 ```
 
 or the following on Windows
 
 ```
-%SIREUM_HOME%\bin\sireum.bat hamr phantom -u --features org.sireum.aadl.gumbo.feature.feature.group=https://raw.githubusercontent.com/sireum/aadl-gumbo-update-site/master;org.sireum.aadl.osate.gumbo2air.feature.feature.group=https://raw.githubusercontent.com/sireum/aadl-gumbo-update-site/master
+%SIREUM_HOME%\bin\sireum.bat hamr phantom -u
 ```
 
 **NOTE**: the ``-u`` phantom option also installs/updates the following Sireum OSATE plugins: 
@@ -24,16 +24,8 @@ Pass phantom's ``--help`` option for more information (e.g. how to install plugi
 
 ## How to Install into FMIDE
 
-First install FMIDE
-
 ```
 $SIREUM_HOME/bin/install/fmide.cmd
-```
-
-The first time the script is run (or when it detects FMIDE needs to be updated) it will indicate where it installed FMIDE.  Copy that location and pass it to phantom via its ``-o`` option.  For example
-
-```
-$SIREUM_HOME/bin/sireum hamr phantom -u -o <fmide-loc> --features "org.sireum.aadl.gumbo.feature.feature.group=https://raw.githubusercontent.com/sireum/aadl-gumbo-update-site/master;org.sireum.aadl.osate.gumbo2air.feature.feature.group=https://raw.githubusercontent.com/sireum/aadl-gumbo-update-site/master"
 ```
 
 ## How to Update
@@ -61,3 +53,4 @@ To update the OSATE plugins themselves simply rerun the ``hamr phantom`` command
 - [1.2022.06242122.c1af472](1.2022.06242122.c1af472)
 - [1.2022.06282118.230473f](1.2022.06282118.230473f)
 - [1.2022.07051018.a740565](1.2022.07051018.a740565)
+- [1.2022.08091444.f63660a](1.2022.08091444.f63660a)
