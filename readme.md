@@ -63,3 +63,4 @@ To update the OSATE plugins themselves simply rerun the ``hamr phantom`` command
 - [1.2022.11022102.e599639](1.2022.11022102.e599639)
 - [1.2023.03231646.2bf1dca](1.2023.03231646.2bf1dca)
 - [1.2023.04051454.3dcd426](1.2023.04051454.3dcd426)
+- [1.2023.07271345.065b5fa](1.2023.07271345.065b5fa)
