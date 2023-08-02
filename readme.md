@@ -14,7 +14,7 @@ or the following on Windows
 %SIREUM_HOME%\bin\sireum.bat hamr phantom -u
 ```
 
-**NOTE**: the ``-u`` phantom option also installs/updates the following Sireum OSATE plugins: 
+**NOTE**: the ``-u`` phantom option also installs/updates the following Sireum OSATE plugins:
 * Base - transforms core AADL to [AIR](https://github.com/sireum/air)
 * CLI - provides a CLI for Sireum based OSATE plugins ***(documentation forthcoming)***
 * [AWAS](https://awas.sireum.org/) - information flow analyzer and visualizer for component-based systems
@@ -40,7 +40,8 @@ bin/build.cmd
 
 This will update ``$SIREUM_HOME/bin/sireum.jar`` which will be used by the AADL GUMBO plugins when OSATE is relaunched.
 
-To update the OSATE plugins themselves simply rerun the ``hamr phantom`` command from the [How to Install](#how-to-install) section (only needed when new versions of the plugin are released)
+To update the OSATE plugins themselves simply rerun the ``hamr phantom`` command from the
+[How to Install](#how-to-install) section (only needed when new versions of the plugin are released)
 
 
 **Releases**
@@ -64,3 +65,4 @@ To update the OSATE plugins themselves simply rerun the ``hamr phantom`` command
 - [1.2023.03231646.2bf1dca](1.2023.03231646.2bf1dca)
 - [1.2023.04051454.3dcd426](1.2023.04051454.3dcd426)
 - [1.2023.07271345.065b5fa](1.2023.07271345.065b5fa)
+- [1.2023.08021014.21d7eb2](1.2023.08021014.21d7eb2)
