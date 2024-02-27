@@ -3,7 +3,7 @@
    <description name="Sireum GUMBO to AIR Plugin Update Site">
       Sireum GUMBO to AIR Plugin Update Site
    </description>
-   <feature url="features/org.sireum.aadl.osate.gumbo2air.feature_1.2024.2271022.3648317.jar" id="org.sireum.aadl.osate.gumbo2air.feature" version="1.2024.2271022.3648317">
+   <feature url="features/org.sireum.aadl.osate.gumbo2air.feature_1.2024.2261857.2928b1b.jar" id="org.sireum.aadl.osate.gumbo2air.feature" version="1.2024.2261857.2928b1b">
       <category name="org.sireum.aadl.osate.category"/>
    </feature>
    <category-def name="org.sireum.aadl.osate.category" label="Sireum">
