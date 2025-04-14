@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Sireum GUMBO to AIR Plugin Update Site">
+      Sireum GUMBO to AIR Plugin Update Site
+   </description>
+   <feature url="features/org.sireum.aadl.osate.gumbo2air.feature_1.2025.4121759.d7c92769.jar" id="org.sireum.aadl.osate.gumbo2air.feature" version="1.2025.4121759.d7c92769">
+      <category name="org.sireum.aadl.osate.category"/>
+   </feature>
+   <category-def name="org.sireum.aadl.osate.category" label="Sireum">
+      <description>
+         Sireum features
+      </description>
+   </category-def>
+</site>
