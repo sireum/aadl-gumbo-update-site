@@ -52,6 +52,13 @@ commits included in each release, matched by commit date. Mechanical commits (gr
 regeneration, version bumps, merges, generated artifacts) are omitted, and each change
 is attributed to the earliest release that shipped it.
 
+<!-- current-release -->
+
+### [1.2026.06240925.18efbba7](1.2026.06240925.18efbba7)
+*Released 2026-06-24*
+
+- add support for abstract system properties and property specializations ([`4623787`](https://github.com/sireum/aadl-gumbo/commit/4623787))
+
 ### [1.2026.06200727.3a432955](1.2026.06200727.3a432955)
 *Released 2026-06-20*
 
